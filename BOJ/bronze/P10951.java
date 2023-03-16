@@ -15,6 +15,5 @@ public class P10951 {
             bw.write(a+b+"\n");
         }
         bw.flush();
-        
     }
 }
