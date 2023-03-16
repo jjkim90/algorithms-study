@@ -17,6 +17,7 @@ public class P9498 {
         } else {
             System.out.println("F");
         }
-    }
 
+        sc.close();
+    }
 }

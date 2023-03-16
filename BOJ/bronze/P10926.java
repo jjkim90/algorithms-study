@@ -9,5 +9,7 @@ class P10926{
         
         String input = sc.next();
         System.out.println(input + wowString);
+        
+        sc.close();
     }
 }

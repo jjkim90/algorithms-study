@@ -11,5 +11,7 @@ class P18108{
         } else {
             System.out.println(aYear);
         }
+
+        sc.close();
     }
 }

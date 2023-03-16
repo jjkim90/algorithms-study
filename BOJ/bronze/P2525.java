@@ -13,5 +13,7 @@ public class P2525 {
         h %= 24;
 
         System.out.printf("%d %d", h, m);
+
+        sc.close();
     }
 }

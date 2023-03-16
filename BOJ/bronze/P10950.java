@@ -15,5 +15,7 @@ public class P10950 {
         for (int i = 0; i < testNum; i++) {
             System.out.println(a[i] + b[i]);
         }
+
+        sc.close();
     }
 }

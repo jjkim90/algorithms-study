@@ -8,7 +8,7 @@ public class P11382 {
         b = sc.nextLong();
         c = sc.nextLong();
         System.out.println(a + b + c);
-    }
 
-    
+        sc.close();
+    }
 }

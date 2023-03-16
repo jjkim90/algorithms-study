@@ -9,5 +9,7 @@ public class P25314 {
             result += "long ";
         }
         System.out.println(result + "int");
+
+        sc.close();
     }
 }

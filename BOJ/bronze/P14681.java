@@ -24,5 +24,7 @@ public class P14681 {
         }
         
         System.out.println(result);
+
+        sc.close();
     }
 }

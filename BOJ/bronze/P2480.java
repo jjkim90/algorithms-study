@@ -23,5 +23,7 @@ public class P2480 {
 
         System.out.println(result);
 
+        sc.close();
+
     }
 }

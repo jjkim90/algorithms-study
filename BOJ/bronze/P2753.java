@@ -10,5 +10,7 @@ public class P2753 {
             result = 1;
         } 
         System.out.println(result);
+
+        sc.close();
     }
 }

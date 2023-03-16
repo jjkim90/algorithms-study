@@ -10,5 +10,7 @@ public class P25304 {
             sum += sc.nextInt() * sc.nextInt();
         }
         System.out.println(amount == sum ? "Yes" : "No");
+
+        sc.close();
     }
 }
