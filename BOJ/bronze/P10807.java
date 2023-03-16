@@ -5,19 +5,19 @@ public class P10807 {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         
-        int count = Integer.parseInt(reader.readLine());
-        String numLine = reader.readLine();
-        int numSearch = Integer.parseInt(reader.readLine());
+        int numElements = Integer.parseInt(reader.readLine());
+        String elementsLine = reader.readLine();
+        int targetValue = Integer.parseInt(reader.readLine());
 
-        StringTokenizer stoken = new StringTokenizer(numLine, " ");
-        int sum = 0;
+        StringTokenizer tokenizer = new StringTokenizer(elementsLine, " ");
+        int occurrenceCount = 0;
         
-        for(int i = 0; i < count; i++){
-            int currentNum = Integer.parseInt(stoken.nextToken());
-            if(currentNum == numSearch){
-                sum += 1;
+        for(int i = 0; i < numElements; i++){
+            int currentValue = Integer.parseInt(tokenizer.nextToken());
+            if(currentValue == targetValue){
+                occurrenceCount += 1;
             }
         }
-        System.out.println(sum);
+        System.out.println(occurrenceCount);
     }
 }
