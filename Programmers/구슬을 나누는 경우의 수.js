@@ -13,6 +13,6 @@ function factorial(num) {
     return answer;
 }
 
-console.log(factorial(0));
+// 테스트
 console.log(solution(3, 2));
 console.log(solution(5, 3));
